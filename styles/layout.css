@@ -1,5 +1,5 @@
 #app {
-    display: flex;
+    display: grid;
     grid-template-columns: 51.25% 48.75%;
 
     height: 100vh;
@@ -45,7 +45,7 @@ aside {
         margin-bottom: 0.5rem;
 
         & span {
-            color: var(--stroke-highlight);
+            color: var(--text-highlight);
         }
     }
 }

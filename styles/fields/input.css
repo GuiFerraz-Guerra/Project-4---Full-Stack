@@ -65,7 +65,7 @@ input {
         border: 0.12rem solid var(--semantic-error);
     }
 
-    & + small {
+    &+small {
         font: var(--text-sm);
         color: #78716C;
 
@@ -73,7 +73,7 @@ input {
         margin-top: 0.25rem;
     }
 
-    &[required]+ .error {
+    &[required]+.error {
         display: flex;
         align-items: center;
         gap: 0.25rem;
